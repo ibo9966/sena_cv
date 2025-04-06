@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #F5F5DC;
+    color: #333333;
+    padding: 30px;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    background: rgb(250, 241, 243);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+
+header {
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 1px;
+    justify-content: space-between;
+}
+
+header img {
+    float: right;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #5a2a7a;
+    margin-right: 80px;
+}
+
+
+header h1 {
+    font-size: 28px;
+    color: #5a2a7a;
+}
+
+header p {
+    font-size: 16px;
+    color: #444;
+}
+
+
+.contact-info, .location-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 0px;
+}
+
+.contact-info p, .location-info p {
+    font-size: 16px;
+    color: #444444;
+    text-align: left;
+    width: 48%; 
+}
+
+.contact-info a, .location-info a {
+    color: #5a2a7a;
+    text-decoration: none;
+}
+
+.contact-info a:hover, .location-info a:hover {
+    text-decoration: underline;
+    color: #2c0e3a;
+}
+
+
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 3px;
+    border: 2px solid #5a2a7a; 
+    border-radius: 3px;
+    color: #5a2a7a;
+    font-size: 24px;
+    background-color: #f9f9f9; 
+    transition: all 0.9s ease; 
+    box-shadow: 20px 20px 20px rgba(12, 12, 12, 0.215); 
+}
+
+
+
+h2 i {
+    margin-right: 10px; 
+}
+
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+a {
+    color: #5a2a7a;
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+    color: #2c0e3a;
+}
+
+h2:hover {
+    transform: scale(1.1); 
+    border-width: 3px; 
+}
+
+
+header img:hover {
+    transform: scale(1.1); 
+    transition: all 0.3s ease; 
+}
